@@ -2,24 +2,26 @@ import React from 'react';
 
 export default function App() {
     return (
-    <footer className="bg-neutral-100 text-center text-neutral-600 bg-[#262626] dark:text-neutral-200 lg:text-left">
-        <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
-            <div className="mr-12 hidden lg:block">
-                <span>Get connected with us on social networks:</span>
-            </div>
+    <footer
+      className="bg-neutral-100 text-center text-neutral-600 bg-black dark:text-neutral-200 lg:text-left">
+      <div
+        className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
+        <div className="mr-12 hidden lg:block">
+          <span>Get connected with us on social networks:</span>
+        </div>
         {/* <!-- Social network icons container --> */}
         <div className="flex justify-center">
-            <a className="mr-6 text-neutral-600 dark:text-neutral-200">
+          <a className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
-                fill="currentColor"
-                viewBox="0 0 24 24">
-                <path
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4"
+              fill="currentColor"
+              viewBox="0 0 24 24">
+              <path
                 d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
             </svg>
-            </a>
-            <a className="mr-6 text-neutral-600 dark:text-neutral-200">
+          </a>
+          <a className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
@@ -160,7 +162,7 @@ export default function App() {
                 <path
                   d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
               </svg>
-              Bangalore, Karnataka, india
+              Bangalore, Karnataka, India
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <svg
@@ -206,7 +208,7 @@ export default function App() {
       </div>
 
       {/* <!--Copyright section--> */}
-      <div className="bg-neutral-200 p-6 text-center bg-[#262626]">
+      <div className="bg-neutral-200 p-6 text-center bg-black">
         <span>© 2023 Copyright:</span>
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400"
